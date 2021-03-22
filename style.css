@@ -55,3 +55,7 @@ form {
        entre les étiquettes et les champs texte */
     margin-left: .5em;
   }
+  .result{
+      width: 60%;
+      margin: auto;
+  }
