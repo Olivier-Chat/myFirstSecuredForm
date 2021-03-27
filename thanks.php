@@ -9,9 +9,9 @@
 </head>
 <body>
     <p class="result">
-    Merci <?=$_POST['user_first_name']?> <?=$_POST['user_last_name']?>  de nous avoir contacté à propos de “<?=$_POST['email_subject']?>”.
-    Un de nos conseiller vous contactera soit à l’adresse <?=$_POST['user_email']?> ou par téléphone au <?=$_POST['user_phone']?> dans les plus brefs délais pour traiter votre demande : 
-    <?=$_POST['user_message']?>
+    Merci <?=$_GET['user_first_name']?> <?=$_GET['user_last_name']?>  de nous avoir contacté à propos de “<?=$_GET['email_subject']?>”.
+    Un de nos conseiller vous contactera soit à l’adresse <?=$_GET['user_email']?> ou par téléphone au <?=$_GET['user_phone']?> dans les plus brefs délais pour traiter votre demande : 
+    <?=$_GET['user_message']?>
     </p>
 </body>
 </html>
